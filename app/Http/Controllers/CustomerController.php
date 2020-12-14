@@ -64,7 +64,7 @@ class CustomerController extends Controller
         $customer->save();
 
         $customer_id = $customer->customer_id;
-        Session::put('customer_id', $cusx1tomer_id);
+        Session::put('customer_id', $customer_id);
         Session::put('customer_name', $customer->name);
         // Session::put('customer_phone', $customer->phone_no);
 
